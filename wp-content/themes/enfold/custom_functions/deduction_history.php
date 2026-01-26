@@ -23,12 +23,41 @@ function deduction_history_endpoint_content(){
 
     $get_data = json_decode($response);
     //$get_data = file_get_contents($url);
-    //print_r($get_data);
-    //exit;
+    // exit;
 
-    //$deduction_history_table_name = $wpdb->prefix . "user_trip_deductions";
-    //$info_table_name = $wpdb->prefix . "users_info";
-    //$deduction_history_retrieve_data = $wpdb->get_results( "SELECT $deduction_history_table_name.*, $info_table_name.vehicle_reg_no FROM $deduction_history_table_name LEFT JOIN $info_table_name ON $info_table_name.id = $deduction_history_table_name.user_info_id WHERE $deduction_history_table_name.user_id = ".get_current_user_id() );
+    $api_logs_table_name = $wpdb->prefix . "api_logs";
+    $vaan_deduction_history_retrieve_data = $wpdb->get_results( "SELECT * FROM $api_logs_table_name WHERE api_for = 'vaan' AND status_code = 200 AND params LIKE '%\"customer_id\":\"".$user_retrieve_data->gea_customer_id."\"%'" );
+    if(count($vaan_deduction_history_retrieve_data) > 0){
+        foreach($vaan_deduction_history_retrieve_data as $thisVaanData){
+            $params = json_decode($thisVaanData->params);
+            $return_string = json_decode($thisVaanData->return_string);
+
+            $rate_table_name = $wpdb->prefix . "tariff_rates";
+            $rate_retrieve_data = $wpdb->get_row( "SELECT $rate_table_name.toll_rates FROM $info_table_name
+                                                LEFT JOIN $rate_table_name ON $rate_table_name.vehicle_type = $info_table_name.vehicle_type
+                                                WHERE $info_table_name.gea_subscription_id = '".$params->subscription_id."' LIMIT 1");
+            $newObject = new stdClass;
+            $newObject->customer_id = $params->customer_id;
+            $newObject->subscription_id = $params->subscription_id;
+            $newObject->passage_time = $thisVaanData->created_at;
+            $newObject->reg_no = $params->vehicle_reg_no;
+            $newObject->lane_number = $params->lane_no;
+            $newObject->deducted_fare = $rate_retrieve_data->toll_rates * $params->no_of_deducted_trip;
+            $newObject->balance_after_pass = $return_string->available_trip * $rate_retrieve_data->toll_rates;
+            $newObject->balance_trip = $return_string->available_trip;
+
+            array_push($get_data, $newObject);
+        }
+
+        $passage_times = array_column($get_data, 'passage_time');
+        array_multisort($passage_times, SORT_DESC, $get_data);
+    }
+    
+    // echo '<pre>';
+    // print_r($get_data);
+    // echo '</pre>';
+
+    // exit;
     ?>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">

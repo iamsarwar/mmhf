@@ -4,6 +4,7 @@ cron_logs/
 demo/
 nagad/
 trip_deducts/
+wp-content/uploads/
 index_bk.php
 index.old.php
 info_test.php
