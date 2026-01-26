@@ -1,0 +1,468 @@
+Array
+(
+    [time] => 2026-01-24 00:32:17
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 234
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 22
+            [transaction_ref_id] => 021922202601240032160000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":234,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 05:09:52
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566474
+            [rfid] => C174FAFFFFB56A1E40AC5043
+            [customer_id] => 14585
+            [available_trip] => 229
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 07
+            [transaction_ref_id] => 021907202601240509470000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":229,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 05:11:52
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566474
+            [rfid] => C174FAFFFFB56A1E40AC5043
+            [customer_id] => 14585
+            [available_trip] => 228
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 07
+            [transaction_ref_id] => 021907202601240509470000
+        )
+
+)
+Array
+(
+    [status_code] => 405
+    [status_messsage] => Duplicate transaction reference id
+    [return_string] => []
+)
+Array
+(
+    [time] => 2026-01-24 05:48:54
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 225
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601240548530000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":225,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 05:53:57
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-158364
+            [rfid] => 013C020010F1F0D88E3C034F
+            [customer_id] => 14585
+            [available_trip] => 224
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601240553570000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":224,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 06:17:25
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 222
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 07
+            [transaction_ref_id] => 021907202601240617240000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":222,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 07:22:55
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566714
+            [rfid] => C18BFAFFFFB599AD711DA83B
+            [customer_id] => 14585
+            [available_trip] => 215
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 17
+            [transaction_ref_id] => 021917202601240722540000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":215,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 07:27:38
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 214
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 22
+            [transaction_ref_id] => 021922202601240727370000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":214,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 08:10:27
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 212
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601240810260000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":211,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 08:36:51
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 209
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 06
+            [transaction_ref_id] => 021906202601240836490000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":209,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 10:27:14
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 205
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 17
+            [transaction_ref_id] => 021917202601241023410000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":204,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 10:55:54
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566474
+            [rfid] => C174FAFFFFB56A1E40AC5043
+            [customer_id] => 14585
+            [available_trip] => 202
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 08
+            [transaction_ref_id] => 021908202601241055520000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":202,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 13:21:16
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 202
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601241320530000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":201,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 14:15:08
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566212
+            [rfid] => C179FAFFFFB56D4B3CF09665
+            [customer_id] => 14585
+            [available_trip] => 199
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601241415050000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":199,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 15:05:11
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 195
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 21
+            [transaction_ref_id] => 021921202601241505100000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":195,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 18:37:40
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566212
+            [rfid] => C179FAFFFFB56D4B3CF09665
+            [customer_id] => 14585
+            [available_trip] => 191
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 26
+            [transaction_ref_id] => 021926202601241837390000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":191,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 21:15:01
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-566714
+            [rfid] => C18BFAFFFFB599AD711DA83B
+            [customer_id] => 14585
+            [available_trip] => 189
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 17
+            [transaction_ref_id] => 021917202601242114590000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":189,"subscription_id":"011707046220"}
+)
+Array
+(
+    [time] => 2026-01-24 23:26:48
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011707046220
+            [vehicle_reg_no] => DHK-M-CHA-561270
+            [rfid] => C186FAFFFFB58E6B3DECA639
+            [customer_id] => 14585
+            [available_trip] => 184
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 17
+            [transaction_ref_id] => 021917202601242326470000
+        )
+
+)
+Array
+(
+    [status_code] => 200
+    [status_messsage] => Success
+    [return_string] => {"name":"Orion Infrastructure Limited","vehicle_reg_no":"DHK-M-CHA-566474,DHK-M-CHA-158364,DHK-M-CHA-566714,DHK-M-CHA-566212,DHK-M-CHA-561270","available_trip":184,"subscription_id":"011707046220"}
+)

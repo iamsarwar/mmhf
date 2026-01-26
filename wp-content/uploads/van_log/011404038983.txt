@@ -1,0 +1,74 @@
+Array
+(
+    [time] => 2026-01-13 12:37:42
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011404038983
+            [vehicle_reg_no] => DHK-M-GHA-142434
+            [rfid] => 013B020010F2307FC05CD9E3
+            [customer_id] => 14330
+            [available_trip] => 12
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+        )
+
+)
+Array
+(
+    [time] => 2026-01-13 12:44:24
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011404038983
+            [vehicle_reg_no] => DHK-M-GHA-142434
+            [rfid] => 013B020010F2307FC05CD9E3
+            [customer_id] => 14330
+            [available_trip] => 10
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 19
+        )
+
+)
+Array
+(
+    [time] => 2026-01-13 12:46:25
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011404038983
+            [vehicle_reg_no] => DHK-M-GHA-142434
+            [rfid] => 013B020010F2307FC05CD9E3
+            [customer_id] => 14330
+            [available_trip] => 12
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+        )
+
+)
+Array
+(
+    [time] => 2026-01-13 12:47:53
+    [method] => POST
+    [route] => /van/tripdeduction
+    [params] => Array
+        (
+            [subscription_id] => 011404038983
+            [vehicle_reg_no] => DHK-M-GHA-142434
+            [rfid] => 013B020010F2307FC05CD9E3
+            [customer_id] => 14330
+            [available_trip] => 9
+            [no_of_deducted_trip] => 1
+            [username] => vanorionlive
+            [password] => kc%n#c]0c>oe
+            [lane_no] => 19
+        )
+
+)

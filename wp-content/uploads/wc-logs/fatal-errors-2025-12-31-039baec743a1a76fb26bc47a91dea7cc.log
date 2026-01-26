@@ -1,0 +1,74 @@
+2025-12-31T05:05:11+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:05:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:05:26+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:05:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:05:44+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:06:57+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:07:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T05:09:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2025-12-31T13:58:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/wp-content/themes/enfold/template-forgotpassword.php:28
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-forgotpassword.php on line 28
+
+2025-12-31T14:20:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-includes/class-wpdb.php on line 2425
+

@@ -1,0 +1,16 @@
+2026-01-13T05:55:41+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+
+2026-01-13T06:33:04+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/enfold/template-signon.php:121
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('...')
+#2 /var/www/html/index.php(17): require('...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/enfold/template-signon.php on line 121
+

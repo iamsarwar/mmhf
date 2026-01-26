@@ -1,0 +1,35 @@
+/*
+ Theme Name:     Enfold Child Theme
+ Theme URI:      www.kriesi.at/themes/enfold-child/
+ Description:    Enfold Child Theme
+ Author:         Mohammad Ayub Sarwar
+ Author URI:     http://ayubsarwar.com
+ Template:       enfold
+ Version:        1.0.0
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+.myAccClass #socket {
+    font-size: 11px;
+    margin-top: -1px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.html_header_top.html_header_sticky #top #wrap_all #main {
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+.woocommerce-EditAccountForm .woocommerce-form-row--first {
+    display: none;
+}
+.woocommerce-EditAccountForm .woocommerce-form-row--last {
+    display: none;
+}
