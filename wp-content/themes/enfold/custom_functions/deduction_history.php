@@ -26,7 +26,7 @@ function deduction_history_endpoint_content(){
     // exit;
 
     $api_logs_table_name = $wpdb->prefix . "api_logs";
-    $vaan_deduction_history_retrieve_data = $wpdb->get_results( "SELECT * FROM $api_logs_table_name WHERE api_for = 'vaan' AND status_code = 200 AND params LIKE '%\"customer_id\":\"".$user_retrieve_data->gea_customer_id."\"%'" );
+    $vaan_deduction_history_retrieve_data = $wpdb->get_results( "SELECT * FROM $api_logs_table_name WHERE api_for = 'vaan' AND status_code = 200 AND (params LIKE '%\"customer_id\":\"".$user_retrieve_data->gea_customer_id."\"%' OR params LIKE '%\"customer_id\":\"".intval($user_retrieve_data->gea_customer_id)."\"%') " );
     if(count($vaan_deduction_history_retrieve_data) > 0){
         foreach($vaan_deduction_history_retrieve_data as $thisVaanData){
             $params = json_decode($thisVaanData->params);
@@ -52,10 +52,13 @@ function deduction_history_endpoint_content(){
         $passage_times = array_column($get_data, 'passage_time');
         array_multisort($passage_times, SORT_DESC, $get_data);
     }
-    
-    // echo '<pre>';
-    // print_r($get_data);
-    // echo '</pre>';
+
+    if(isset($_GET['debug'])){
+	    echo '<pre>';
+	    echo "SELECT * FROM $api_logs_table_name WHERE api_for = 'vaan' AND status_code = 200 AND (params LIKE '%\"customer_id\":\"".$user_retrieve_data->gea_customer_id."\"%' OR params LIKE '%\"customer_id\":\"".intval($user_retrieve_data->gea_customer_id)."\"%') ";
+     print_r($get_data);
+     echo '</pre>';
+    }
 
     // exit;
     ?>
