@@ -9,3 +9,5 @@ index_bk.php
 index.old.php
 info_test.php
 wp-config.php
+.DS_Store
+wp-content/uploads/wc-logs/
