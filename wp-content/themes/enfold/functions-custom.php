@@ -3006,7 +3006,7 @@ function insert_van_trip_deduction_backup(WP_REST_Request $request_data) {
                     		$total_trip = $trip_retrieve_data->total_trip - $trip_no;
                     		date_default_timezone_set("Asia/Dhaka");
                     		// $total_trip = $trip_no;
-                    		$trip_update_data = $wpdb->update($trip_table_name, array('id' => $trip_retrieve_data->id, 'total_trip' => $total_trip, 'updated_by' => get_current_user_id(), 'date_updated' => date('Y-m-d H:i:s')), array('id' => $trip_retrieve_data->id));
+                    		$trip_update_data = $wpdb->update($trip_table_name, array('id' => $trip_retrieve_data->id, 'total_trip' => $total_trip, 'date_updated' => date('Y-m-d H:i:s')), array('id' => $trip_retrieve_data->id));
                     
                     		$total_cost = $info_retrieve_data->toll_rates * $post_data["no_of_deducted_trip"];
                     
@@ -3042,7 +3042,7 @@ function insert_van_trip_deduction_backup(WP_REST_Request $request_data) {
                     		$mobile_no = !empty($info_retrieve_data->user_login)?$info_retrieve_data->user_login:'01713336322';
                     		smsmmhfOrion($mobile_no, $sms_message, $csmsId);
                         
-				$status_code = '200';
+				            $status_code = '200';
                         	$status_messsage = 'Success';
                         	$return_string = array
                                         (
