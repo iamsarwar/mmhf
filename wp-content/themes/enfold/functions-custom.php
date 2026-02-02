@@ -3000,7 +3000,7 @@ function insert_van_trip_deduction_backup(WP_REST_Request $request_data) {
                 	$trip_no = $wpdb->escape($post_data["no_of_deducted_trip"]);
 
                 	$trip_table_name = $wpdb->prefix . "users_trips";
-                	$trip_retrieve_data = $wpdb->get_row("SELECT $trip_table_name.* FROM $trip_table_name WHERE $trip_table_name.user_id = " . $user_id . " AND $trip_table_name.gea_subscription_id=" . $gea_subscription_id);
+                	$trip_retrieve_data = $wpdb->get_row("SELECT $trip_table_name.* FROM $trip_table_name WHERE $trip_table_name.user_id = " . $user_id . " AND $trip_table_name.gea_subscription_id = " . $gea_subscription_id);
 
                 	if (!empty($trip_retrieve_data->total_trip)) {
                     		$total_trip = $trip_retrieve_data->total_trip - $trip_no;
